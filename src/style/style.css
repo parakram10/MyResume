@@ -1,0 +1,440 @@
+/* Main Page */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.mainbody{
+    position: relative;
+    background-color: cornflowerblue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contentDiv{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image:  
+              linear-gradient(160deg, rgb(250, 243, 243), rgb(160, 148, 148), rgba(4, 4, 71, 0.5)), url('./alina-grubnyak-ZiQkhI7417A-unsplash.jpg');
+    /* margin: 5vh 5vw; */
+    display: flex;
+    /* border-radius: 30px 30px 30px 0px; */
+}
+
+.socialLinks{
+    width: 5vw;
+    height: 90vh;
+}
+
+.Allcontent{
+    color: black;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.li{
+    color: black;
+    font-family: monospace;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin-top: 2vh;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.li:hover{
+    border-bottom: 3px solid cornflowerblue;
+}
+
+.links{
+    color: black;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.links li{
+    padding: 10px;
+}
+
+.links li img{
+    height: 30px;
+    cursor: pointer;
+}
+
+.links li img:hover{
+    height: 35px;
+}
+
+.psocial{
+    margin-top: 52vh;
+    color: black;
+    writing-mode: vertical-lr;
+    margin-left: 28px;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+hr{
+    writing-mode: vertical-lr;
+    height: 25px;
+    background-color: black;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+
+/* Home Page */
+
+.homeMainDiv{
+    position: relative;
+    margin: 18vh;
+    font-family: monospace;
+}
+
+.hello{
+    font-size: 25px;
+    /* margin-bottom: 5px; */
+}
+
+.myname{
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.name{
+    color: rgb(10, 87, 230);
+    font-size: 40px;
+}
+
+.knows{
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 5px;
+    border: none;
+    background: none;
+}
+
+.knows::placeholder{
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+}
+
+.resume{
+    background: none;
+    color: black;
+    outline: none;
+    padding: 10px 40px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border: 5px solid rgb(7, 7, 7);
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.resume:hover{
+    border: 5px solid rgb(73, 129, 233);
+}
+
+.myimage{
+    position: absolute;
+    width: 350px;
+    margin-left: 47vw;
+    border-radius: 50px 0px;
+    /* border: 1px solid black; */
+}
+
+
+.tech{
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 9vh;
+    border-radius: 30px;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.tech:hover{
+    border: 4px solid rgb(10, 29, 63);
+}
+
+#cpp{
+    width: 30px;
+    animation-name: floating1;
+    animation-duration: 5s;
+}
+
+#c{
+    width: 25px;
+    margin-left: 5vw;
+    animation-name: floating1;
+}
+
+#android{
+    width: 60px;
+    margin-left: 10vw;
+    animation-name: floating;
+}
+
+#sql{
+    width: 30px;
+    margin-left: 17vw;
+    animation-name: floating1;
+    animation-duration: 5s;
+}
+
+#dsa{
+    width: 30px;
+    margin-left: 22vw;
+    animation-name: floating;
+    animation-duration: 2s;
+}
+
+#java{
+    width: 90px;
+    margin-top: 10vw;
+    animation-name: floating1;
+    animation-duration: 2s;
+}
+
+#reactjs{
+    width: 70px;
+    margin-left: 9vw;
+    margin-top: 10vw;
+    animation-name: floating1;
+}
+
+#aboutResume{
+    margin-left: 8vw;
+    margin-top: 8vh;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating{
+    0% {transform: translate(0, 0px);}
+    50% {transform: translate(0,15px);}
+    100% {transform: translate(0, -0px);}
+}
+
+@keyframes floating1{
+    0% {transform: translate(0, -0px);}
+    50% {transform: translate(0, 25px);}
+    100% {transform: translate(0, 0px);}
+}
+
+
+
+/* About Me Page */
+
+.mainAbout{
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+}
+
+.aboutME{
+    width: 60%;
+}
+
+.contactform{
+    width: 40%;
+}
+
+.intro{
+    margin: 15vh 0 0 8vw;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.mainIntro{
+    margin: 2vh 0 0 8vw;
+    font-size: 18px;
+    font-family: monospace;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.form{
+    margin-left: 10vw;
+    padding: 20px;
+    background: linear-gradient(70deg, rgb(165, 164, 164), rgba(27, 27, 27, 0.5));
+}
+
+.form input{
+    font-size: 15px;
+    font-family: monospace;
+    background: none;
+    padding: 10px;
+    width: 18vw;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.form input::placeholder{
+    color: black;
+}
+
+.form textarea::placeholder{
+    color: black;
+}
+
+.form textarea{
+    font-family: monospace;
+    background: none;
+    padding: 10px;
+    width: 18vw;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.submitFromContact{
+    font-family: monospace;
+    font-size: 18px;
+    background: none;
+    color: black;
+    padding: 10px 100px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.formTitle{
+    font-family: monospace;
+    color: rgb(7, 7, 7);
+    margin-left: 10vw;
+    margin-top: 8vh;
+    margin-bottom: 10px;
+    font-size: 25px;
+    visibility: hidden;
+}
+
+
+/* Project Page */
+
+.mainProjectDiv{
+    background: linear-gradient(70deg, rgb(109, 108, 108), rgba(99, 95, 95, 0.5));
+    box-shadow: 2px 5px 5px #3b3a3a;
+}
+
+.projectMainDiv{
+    height: 80vh;
+    width: 72vw;
+    /* border: 2px solid black; */
+    margin: 0 8vw;
+    overflow-y: scroll;
+}
+
+.projectMainDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.projectHead {
+    font-size: 40px;
+    font-family: monospace;
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainDivProject{
+    height: 30vh;
+    width: 60vw;
+    /* background-color: white; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.projectImg{
+    width: 40%;
+    height: 100%;
+}
+
+
+.projectImg img{
+    /* border-radius: 20px 0px; */
+    width: 100%;
+    height: 100%;
+}
+
+.projectDetail{
+    width: 60%;
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.projectDetail li{
+    list-style: none;
+    padding-left: 10px;
+    margin: 10px;
+    font-size: 14px;
+    font-family: monospace;
+    word-wrap: break-word;
+    letter-spacing: 1px;
+}
+
+.techUsedInProject{
+    margin: 0 9vw;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.projectName{
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 5px;
+    /* border: 1px solid black; */
+    /* margin: 0 9vw; */
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: rgb(224, 215, 215);
+}
+
+.techUsed{
+    font-size: 20px;
+    font-family: monospace;
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: 25vw;
+    color: rgb(224, 215, 215);
+}
+
+.techName{
+    height: 2vw;
+    display: flex;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(224, 215, 215);
+    margin-top: 10px;
+    margin-left: 30px;
+} 
